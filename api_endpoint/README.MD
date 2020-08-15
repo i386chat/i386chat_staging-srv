@@ -9,9 +9,9 @@ This API Endpoint handles:
   - User Deletion
 
 The only data stored by the endpoint is:
-    - a unique user ID (based off the "i386chat" epoch plus a random number between 1 and the "i386chat" epoch)
-    - your nickname
-    - whether or not you are an admin
-    - whether or not you are banned
+- a unique user ID (based off the "i386chat" epoch plus a random number between 1 and the "i386chat" epoch)
+- your nickname
+- whether or not you are an admin
+- whether or not you are banned
 
 No other data is retained unless you are banned, otherwise your IP will be added to an array on the main server.
