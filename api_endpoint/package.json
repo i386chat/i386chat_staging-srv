@@ -1,0 +1,21 @@
+{
+  "name": "podtube_api",
+  "version": "0.0.1",
+  "description": "PodTube API for PodTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.desert.local/funey/podtube_api"
+  },
+  "author": "Funey <funey@git.desert.local>",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
