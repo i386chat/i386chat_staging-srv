@@ -1,0 +1,14 @@
+{
+  "name": "i386chat_api_cli",
+  "version": "0.0.1",
+  "description": "API for communicating with i386chat Authentication / other things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "Funey <funey@desert.local>",
+  "license": "ISC",
+  "dependencies": {
+    "sync-request": "^6.1.0"
+  }
+}
